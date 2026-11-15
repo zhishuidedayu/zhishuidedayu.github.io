@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 占位头像：换成你的照片时，把 index.html 里 src="assets/img/avatar.svg" 改成你的图片文件名即可 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="头像占位图">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b5bdb"/>
+      <stop offset="100%" stop-color="#748ffc"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" fill="url(#g)"/>
+  <circle cx="120" cy="96" r="38" fill="#ffffff" fill-opacity="0.92"/>
+  <path d="M120 148c-38 0-68 26-68 58v34h136v-34c0-32-30-58-68-58z" fill="#ffffff" fill-opacity="0.92"/>
+  <text x="120" y="104" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#3b5bdb">你</text>
+</svg>
