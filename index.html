@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>你的名字 · 个人简介</title>
+  <meta name="description" content="你的名字的个人主页：高中与大学的学习生活记录。" />
+  <meta name="author" content="你的名字" />
+
+  <!-- 分享到微信/QQ 时显示的卡片信息，发布后把两处链接改成真实地址 -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="你的名字 · 个人简介" />
+  <meta property="og:description" content="你的名字的个人主页：高中与大学的学习生活记录。" />
+  <meta property="og:url" content="https://dayubuzhishui.com/" />
+
+  <link rel="icon" href="assets/img/avatar.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">你的名字</a>
+      <button class="nav-toggle" id="navToggle" aria-label="打开导航" aria-expanded="false" aria-controls="siteNav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="#about">关于我</a>
+        <a href="#highschool">高中</a>
+        <a href="#university">大学</a>
+        <a href="#skills">技能</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ========== 首屏 ========== -->
+    <section class="hero container">
+      <div class="hero-text">
+        <p class="eyebrow">你好，我是</p>
+        <h1>你的名字</h1>
+        <p class="tagline">一句话介绍自己：比如「XX 大学 XX 专业在读，喜欢写代码和拍照」。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#about">了解我</a>
+          <a class="btn btn-ghost" href="mailto:you@example.com">发邮件</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="assets/img/avatar.svg" alt="你的头像" width="240" height="240" />
+      </div>
+    </section>
+
+    <!-- ========== 关于我 ========== -->
+    <section id="about" class="section container" data-reveal>
+      <h2 class="section-title">关于我</h2>
+      <div class="section-body prose">
+        <p>这里写 3 到 4 句话：你是谁、现在在做什么、你最在意什么。不要写「积极参加各项活动，全面发展」这类空话，写具体的事。</p>
+        <p>例如：我是 XXX，毕业于 XX 中学，现在在 XX 大学读 XX 专业。我比较喜欢把复杂的东西拆开弄懂，最近在自学前端，想把高中到大学的经历整理成一个网页。</p>
+      </div>
+    </section>
+
+    <!-- ========== 高中 ========== -->
+    <section id="highschool" class="section container" data-reveal>
+      <h2 class="section-title">高中</h2>
+      <p class="section-lead">XX 中学 · 20XX – 20XX</p>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <h3>一个转折</h3>
+          <p class="time">高一 · 上学期</p>
+          <p>写一件让你改变想法的事。比如某次考试没考好之后，你怎么调整了学习方式。</p>
+        </li>
+        <li class="timeline-item">
+          <h3>一个坚持</h3>
+          <p class="time">高一 – 高三</p>
+          <p>写一件坚持了很久的事：社团、运动、乐器、竞赛小组都行，重点写「坚持了多久、遇到过什么坎」。</p>
+        </li>
+        <li class="timeline-item">
+          <h3>一个成绩</h3>
+          <p class="time">高三 · 下学期</p>
+          <p>写一个具体的成果：竞赛名次、项目、作品、或者一次让你满意的进步。</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ========== 大学 ========== -->
+    <section id="university" class="section container" data-reveal>
+      <h2 class="section-title">大学</h2>
+      <p class="section-lead">XX 大学 · XX 专业 · 20XX – 至今</p>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <h3>专业与方向</h3>
+          <p class="time">大一</p>
+          <p>写你为什么选这个专业，或者你在这个专业里最感兴趣的一块。</p>
+        </li>
+        <li class="timeline-item">
+          <h3>一个项目 / 一段经历</h3>
+          <p class="time">大二</p>
+          <p>课程项目、实验室、实习、比赛、社团负责的事，挑一件写出你的具体贡献。</p>
+        </li>
+        <li class="timeline-item">
+          <h3>现在在做什么</h3>
+          <p class="time">现在</p>
+          <p>写你正在做的事，哪怕很小：在学什么、在做什么东西、下一步想尝试什么。</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ========== 技能 / 经历 ========== -->
+    <section id="skills" class="section container" data-reveal>
+      <h2 class="section-title">技能与经历</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>技能 / 工具</h3>
+          <p>写你实际会用的：比如 HTML/CSS、Python、Excel、PS、剪辑、英语。</p>
+        </article>
+        <article class="card">
+          <h3>经历 / 组织</h3>
+          <p>社团、学生会、志愿服务、班委，写清楚你负责什么。</p>
+        </article>
+        <article class="card">
+          <h3>作品 / 项目</h3>
+          <p>放 1–3 个能点开的链接或截图说明，比写十句形容有用。</p>
+        </article>
+        <article class="card">
+          <h3>兴趣</h3>
+          <p>写真实爱好，别人搭话时用得上；不写也没关系。</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== 联系 ========== -->
+    <section id="contact" class="section container" data-reveal>
+      <h2 class="section-title">联系我</h2>
+      <div class="section-body prose">
+        <p>只放你愿意公开的联系方式。</p>
+        <ul class="contact-list">
+          <li>邮箱：<a href="mailto:you@example.com">you@example.com</a></li>
+          <li>GitHub：<a href="https://github.com/yourname" target="_blank" rel="noopener">github.com/yourname</a></li>
+          <li>其他：<a href="#" target="_blank" rel="noopener">你愿意公开的社交账号</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year">2026</span> 你的名字 · Built with plain HTML &amp; CSS</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
